@@ -35,8 +35,7 @@ int main() {
   epsilon = pow( (T2 / T1), (1 / (n - 1) ) );
   A = ( (R * T1) / (n - 1) ) * ( (T2 / T1) - 1 );
   
-  cout.precision(6);
-  cout << fixed;
+  cout.precision(7);
   
   cout << "P2 = " << P2 << endl 
        << "epsilon = " << epsilon << endl
